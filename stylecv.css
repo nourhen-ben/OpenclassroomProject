@@ -1,0 +1,79 @@
+h1
+{
+   
+    text-align: center;
+}
+
+}
+.par2
+{
+	color:red;
+}
+body
+{
+
+background-image : url("images/img.jpg");
+
+}
+ @font-face 
+{
+    font-family: 'cac_champagneregular';
+    src: url('font/cac_champagne-webfont.eot');
+    src: url('font/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cac_champagne-webfont.woff2') format('woff2'),
+         url('font/cac_champagne-webfont.woff') format('woff'),
+         url('font/cac_champagne-webfont.ttf') format('truetype'),
+         url('font/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.par
+{
+    text-align: center;
+}
+section
+{
+
+	display: flex;
+	justify-content: space-around;
+
+margin: 100px 100px 100px 200px;
+}
+
+.lisere
+{ 
+	
+	position: absolute;
+	left: 0px;
+	top:10px;
+	background-color: black;
+	width: 150px;
+	height: 700px;
+	border-radius: 10px 10px 10px 10px;
+
+}
+.img
+{
+
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+header
+{
+	margin: 100px 100px 100px 200px;
+
+}
+@media screen and (max-width: 1280px)
+
+{
+.lisere
+{
+	display: none;
+}
+section
+{
+	 flex-direction: column;
+}
+}
